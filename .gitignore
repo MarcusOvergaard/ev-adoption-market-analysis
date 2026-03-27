@@ -1,0 +1,17 @@
+.venv/
+*.pyc
+__pycache__/
+.DS_Store
+# Temporary files
+*.tmp
+*~
+# Logs
+*.log
+# Editor backups
+*.bak
+# OS generated files
+.vscode/
+.idea/
+# Large data files (if not intended for version control)
+# *.csv
+# If you decide to include processed CSVs, remove the above line

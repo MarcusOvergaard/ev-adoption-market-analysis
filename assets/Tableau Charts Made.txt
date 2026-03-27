@@ -1,0 +1,63 @@
+A) Did total vehicle sales change from 2018 → 2025?
+
+Use:
+Line chart
+X: Year
+Y: total_vehicles_sold
+Color: Country
+Purpose:
+trend over time
+pandemic distortion visible
+post-EV acceleration visible
+This is your foundation.
+
+
+
+B) Which countries declined vs grew?
+
+Use:
+Slope chart (2018 vs 2025)
+Left: 2018 sales
+Right: 2025 sales
+One line per country
+Best for:
+visualizing net change
+comparing magnitude
+
+
+
+C) Is EV adoption correlated with lower total sales?
+This is your core hypothesis test.
+Use:
+Scatter plot
+X: EV_market_share (2025)
+Y: % change in sales (2018→2025)
+Point: Country
+If your hypothesis holds:
+→ downward slope
+If not:
+→ no correlation or upward slope
+This chart is critical.
+
+
+
+D) Are ICE sales collapsing while EVs grow?
+Create derived fields:
+ICE_sales = total * (1 − EV_share)
+EV_sales = total * EV_share
+Then use:
+Stacked area chart over time
+This reveals:
+substitution vs total contraction
+
+
+E)Total vehicle production vs EVs production 
+1 chart for 2023 major producers world, china, US, and Germany
+2 chart for 2025 major producers world, china, US, and Germany
+3 chart of worldwide Total vehicle production vs EVs production 2017 to 2025
+
+
+F)EVs Market share for cars sold 2023 vs 2025 in major economies China, Europe, Germany, US.
+
+
+G)Map with vehicles per capita

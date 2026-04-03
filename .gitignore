@@ -15,3 +15,7 @@ __pycache__/
 # Large data files (if not intended for version control)
 # *.csv
 # If you decide to include processed CSVs, remove the above line
+
+# Windows alternate data stream artifacts
+*:Zone.Identifier
+

@@ -51,6 +51,6 @@ df["%_ev_sales_global"] = (
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-out_path = BASE_DIR / "ev_2.csv"
+out_path = BASE_DIR / "ev_stock_and_sales_2023.csv"
 
 df.to_csv(out_path, index=False)

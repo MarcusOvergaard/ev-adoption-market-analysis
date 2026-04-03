@@ -9,7 +9,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # File paths
 file = os.path.join(script_dir, "table_3.csv")
-output_file = os.path.join(script_dir, "ev_3.csv")
+output_file = os.path.join(script_dir, "ev_market_share_by_country_year.csv")
 
 # Load the tables
 df = pd.read_csv(file)

@@ -32,7 +32,7 @@ The aim is not merely to track EV growth, but to examine whether adoption patter
 ## 2. Getting Started
 
 ### Prerequisites
-- Python 3.10+
+- Python 3.8+
 - Jupyter Notebook or JupyterLab
 - Tableau Desktop or Tableau Public (optional, for dashboard exploration)
 
@@ -113,9 +113,9 @@ The repository is easiest to reproduce from the notebook-first workflow.
 ### Expected outputs
 Running the notebook should produce cleaned versions of:
 - `vehicle_production.csv`
-- `ev_2.csv`
-- `ev_3.csv`
-- `vehicles_per_capita1.csv`
+- `ev_stock_and_sales_2023.csv`
+- `ev_market_share_by_country_year.csv`
+- `vehicles_per_capita.csv`
 - `trade_data.csv`
 
 ### Workflow note
